@@ -1,0 +1,32 @@
+<?php
+
+	//var_dump($_GET);
+
+	//echo "<br>";
+	//echo "<hr>";
+
+	$a= $_GET['primer'];
+	$b= $_GET['segundo'];
+	switch ($_GET['calcular']) 
+	{
+		case 'Suma':
+			echo $a+$b;
+			break;
+		case 'Resta':
+			echo $a-$b;
+			break;
+		case 'Multiplicar':
+			echo $a*$b;
+			break;
+		case 'Dividir':
+			echo $a/$b;
+			break;
+		case 'Modulo':
+			echo $a%$b;
+			break;
+		default:
+			echo "error";
+			break;
+	}
+
+?>
