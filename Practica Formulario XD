@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8"/>
+
+<head>
+	<title>Curso</title>
+</head>
+<body>  
+
+
+	<form method ="GET" action = "resultado.php">
+		Primer Numero:
+		<input type="number" name = "primer" autofocus><br>
+		Segundo Numero:
+		<input type="number" name = "segundo" autofocus><br>
+		Calcular:
+		<select name = "calcular">
+			<option value = "Suma">+</option>
+			<option value = "Resta">-</option>
+			<option value = "Multiplicar">*</option>
+			<option value = "Dividir">/</option>
+			<option value = "Modulo">%</option>
+		</select><br>
+		
+		<input type="submit" value ="Enviar..."><br>
+	</form>
+
+
+</body>
+</html>
